@@ -1,0 +1,308 @@
+.SvgAnimContainer {
+  overflow: visible;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#Guy1 {
+  /* animation: move 2s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box; */
+}
+@keyframes move {
+  from {
+    transform: translateX(150px);
+  }
+  to {
+    transform: translateX(-150px);
+  }
+}
+
+@keyframes jump1 {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+#Guy5 {
+  animation: jump5 0.5s infinite alternate cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes jump5 {
+  from {
+    transform: translateY(25px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+#Guy4 {
+  animation: jump4 0.5s infinite alternate cubic-bezier(0.215, 0.61, 0.355, 1);
+  animation-delay: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes jump4 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-30px);
+  }
+}
+
+#Guy3 {
+  animation: jump4 0.5s infinite alternate cubic-bezier(0.215, 0.61, 0.355, 1);
+  animation-delay: 250ms;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#Guy2 {
+  animation: jump4 0.5s infinite alternate cubic-bezier(0.215, 0.61, 0.355, 1);
+  animation-delay: 300ms;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#Triangle,
+#Pi,
+#Square,
+#Circle {
+  animation: rotate 6s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#M {
+  visibility: none;
+  animation: drop 1s alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#å {
+  visibility: none;
+  animation: rise 1.1s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#n1 {
+  visibility: none;
+  animation: drop 1.2s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#s {
+  visibility: none;
+
+  animation: rise 1.3s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#W {
+  visibility: none;
+
+  animation: drop 1.4s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#e {
+  visibility: none;
+
+  animation: rise 1.5s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#n2 {
+  visibility: none;
+
+  animation: drop 1.6s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#n3 {
+  visibility: none;
+
+  animation: rise 1.7s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#i {
+  visibility: none;
+
+  animation: drop 1.8s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#n4 {
+  visibility: none;
+
+  animation: rise 1.9s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#g {
+  visibility: none;
+  animation: drop 2s alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#Rectangle {
+  visibility: none;
+
+  animation: slide 3s alternate;
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-600px);
+    visibility: visible;
+  }
+  to {
+    transform: translateX(0px);
+    visibility: visible;
+  }
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(500px);
+    visibility: visible;
+  }
+  to {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(-500px);
+    visibility: visible;
+  }
+  to {
+    transform: translateY(0px);
+    visibility: visible;
+  }
+}
+
+#React {
+  animation: rotate 50s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#BookLower {
+  animation: bounce1 0.5s alternate infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#BookUpper {
+  animation: bounce2 0.5s alternate infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#Pencil {
+  animation: bounce3 0.5s alternate infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes rotateLittle {
+  from {
+    transform: rotate(0deg);
+    visibility: visible;
+  }
+  to {
+    transform: rotate(20deg);
+    visibility: visible;
+  }
+}
+
+@keyframes bounce1 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-80px);
+  }
+}
+
+@keyframes bounce2 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+}
+@keyframes bounce3 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-120px);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3600deg);
+  }
+}
+@media screen and (max-width: 600px) {
+  .SvgAnimContainer {
+    width: 100%;
+    overflow: visible;
+  }
+}

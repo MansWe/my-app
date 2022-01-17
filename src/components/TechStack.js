@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import styled from "styled-components";
 import img from "../img/Me.png";
+import { whileStatement } from "@babel/types";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,9 +17,6 @@ import {
   faNode,
   faKeybase
 } from "@fortawesome/free-brands-svg-icons";
-import { whileStatement } from "@babel/types";
-
-var ReactRotatingText = require("react-rotating-text");
 
 library.add(
   faFacebookF,
@@ -33,9 +31,12 @@ library.add(
   faKeybase
 );
 
+var ReactRotatingText = require("react-rotating-text");
+
 const TechStack = props => {
   //Hook for handling which stack has been selected by user
   const [CurrentStack, setCurrentStack] = useState("Technologies (hover)");
+
   // /Hook
 
   const SortElement = styled.div`
