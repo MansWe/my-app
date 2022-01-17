@@ -84,6 +84,7 @@ function Section3() {
   `;
 
   const StackDiv = styled.div`
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;

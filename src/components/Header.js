@@ -54,10 +54,7 @@ function Header() {
   return (
     <HeaderDiv>
       <LeftIcon>
-        <IconLink
-          href="https://www.linkedin.com/in/m%C3%A5ns-wenning-b6b82417a/"
-          target="_blank"
-        >
+        <IconLink href="https://github.com/MansWe" target="_blank">
           <FontAwesomeIcon
             icon={["fab", "github"]}
             style={{ height: "40px", width: "40px" }}

@@ -4,7 +4,7 @@ import "../Anim.css";
 
 function EngineeringTeamAnim() {
   return (
-    <div class="SvgAnimContainer">
+    <div class="SvgAnimContainer" style={{ paddingTop: "20px" }}>
       <svg
         class="SvgAnimContainer"
         width="100%"
